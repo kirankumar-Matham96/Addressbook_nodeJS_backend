@@ -19,6 +19,12 @@
 //Importing mongoose
 const mongoose = require('mongoose');
 
+//Importing bcrypt
+const bcrypt = require('bcrypt');
+
+//salt rounds to provide salt for hashing
+const SALT_ROUNDS = 10;
+
 //Address Book mongoose schema
 const userSchema = mongoose.Schema(
   {
@@ -50,5 +56,68 @@ const userSchema = mongoose.Schema(
   }
 )
 
+/**
+ * function to make hashed password.
+ */
+ userSchema.pre('save', function (next) {
+  // const employee = this;
+  const user = this;
+
+  //generating salt and adding to hashed password, then replacing password with hash
+  bcrypt.hash(user.password, SALT_ROUNDS, (err, hashedPassword) => {
+    if (err) return next(err);
+
+    //assigning hashed password to the object
+    user.password = hashedPassword;
+
+    //re-routing to the next middleware
+    next();
+  });
+});
+
+//comparing passwords for the authentication
+userSchema.methods.comparePasswords = (clientsPassword, callback) => {
+  bcrypt.compare(clientsPassword, this.password, (err, matched) => {
+    return err ? callback(err, null) : callback(null, matched);
+  });
+};
+
+//Assigning schema to a variable
+const schema = mongoose.model(userSchema);
+
+//ES6-feature: class
+class RegisterUser{
+  //Register new user
+  newUserRegistration = (newUser, callback) => {
+    try {
+      const user = new userDataModel({
+        firstName: newUser.firstName,
+        lastName: newUser.lastName,
+        email: newUser.email,
+        password: newUser.password,
+      });
+
+      //to save the new data
+      user.save({}, (err, data) => {
+        return err ? callback(err, null) : callback(null, data);
+      });
+    } catch (err) {
+      return callback(err, null);
+    }
+  };
+
+  //To login
+  loginUser(clientCredentials, callback) {
+    userDataModel.findOne({ email: clientCredentials.email }, (err, data) => {
+      if (err) return callback(err, null);
+      else if (!data) return callback('User not found with email', null);
+      return callback(null, data);
+    });
+  }
+}
+
 //Exporting schema
 module.exports = mongoose.model(userSchema);
+
+//Exporting instance of the class
+module.exports = new RegisterUser();

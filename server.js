@@ -20,8 +20,28 @@
 const express = require('express');
 
 //Importing and configuring dotenv
-require(dotenv).config();
+require('dotenv').config();
+
+const dataBaseConnection = require('./config/addressBook');
 
 //Creating instance of express
 const app = express();
 
+// parse request of content-type - application/x-www-form-urlencoded
+app.use(express.urlencoded({extended: true}));
+
+// parse request of content-type - application/json
+app.use(express.json());
+
+//connecting to database
+dataBaseConnection.connectToDatabase();
+
+//welcome message for home page
+app.get('/', (req,res) => {
+  res.status(200).send({success: true, message: 'Welcome to Address Book API 🙏🏻'})
+})
+
+//Adding port listener
+app.listen(process.env.PORT, () => {
+  console.log(`Server running at port: ${process.env.PORT}`);
+})
