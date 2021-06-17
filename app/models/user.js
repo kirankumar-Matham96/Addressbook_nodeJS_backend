@@ -83,7 +83,7 @@ userSchema.methods.comparePasswords = (clientsPassword, callback) => {
 };
 
 //Assigning schema to a variable
-const schema = mongoose.model(userSchema);
+const schema = mongoose.model('userSchemaModel',userSchema);
 
 //ES6-feature: class
 class RegisterUser{
@@ -108,7 +108,7 @@ class RegisterUser{
 
   //To login
   loginUser(clientCredentials, callback) {
-    userDataModel.findOne({ email: clientCredentials.email }, (err, data) => {
+    schema.findOne({ email: clientCredentials.email }, (err, data) => {
       if (err) return callback(err, null);
       else if (!data) return callback('User not found with email', null);
       return callback(null, data);
@@ -117,7 +117,7 @@ class RegisterUser{
 }
 
 //Exporting schema
-module.exports = mongoose.model(userSchema);
+module.exports = mongoose.model('userSchemaModel',userSchema);
 
 //Exporting instance of the class
 module.exports = new RegisterUser();

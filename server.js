@@ -41,6 +41,9 @@ app.get('/', (req,res) => {
   res.status(200).send({success: true, message: 'Welcome to Address Book API 🙏🏻'})
 })
 
+//Calling routes
+require('./app/routes/addressBook')(app)
+
 //Adding port listener
 app.listen(process.env.PORT, () => {
   console.log(`Server running at port: ${process.env.PORT}`);
