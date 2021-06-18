@@ -62,7 +62,7 @@
      const token = req.get('token');
 
      if (token) {
-       JWT.verify(token, process.env.SECRET_ACCESS_TOKEN, (err) => {
+       JWT.verify(token, process.env.SECRET_CODE, (err) => {
          if (err) {
            console.log('Error: ', err);
            return res.status(400).send({

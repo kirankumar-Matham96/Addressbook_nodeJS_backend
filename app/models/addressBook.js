@@ -171,6 +171,17 @@ class CRUDOperations {
     }
   };
 
+  patchDataWithUpdate = (contactId, newDataToUpdate, callback) => {
+    try {
+      schema.findByIdAndUpdate(contactId, newDataToUpdate, { new: true }, (err, data) => {
+        return err ? callback(err, null) : callback(null, data);
+      });
+    } catch (err) {
+      console.log('error at patching at schema level: err');
+      callback(err, null);
+    }
+  }
+
   //Removing employee with id
   removeContactById = (contactId, callback) => {
     try {
