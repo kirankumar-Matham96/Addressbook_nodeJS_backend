@@ -25,7 +25,7 @@ const bcrypt = require('bcrypt');
 //salt rounds to provide salt for hashing
 const SALT_ROUNDS = 10;
 
-//Address Book mongoose schema
+//Address Book user mongoose schema
 const userSchema = mongoose.Schema(
   {
     firstName: {
@@ -60,8 +60,7 @@ const userSchema = mongoose.Schema(
  * function to make hashed password.
  */
  userSchema.pre('save', function (next) {
-  // const employee = this;
-  const user = this;
+   const user = this;
 
   //generating salt and adding to hashed password, then replacing password with hash
   bcrypt.hash(user.password, SALT_ROUNDS, (err, hashedPassword) => {
@@ -90,7 +89,7 @@ class RegisterUser{
   //Register new user
   newUserRegistration = (newUser, callback) => {
     try {
-      const user = new userDataModel({
+      const user = new schema({
         firstName: newUser.firstName,
         lastName: newUser.lastName,
         email: newUser.email,

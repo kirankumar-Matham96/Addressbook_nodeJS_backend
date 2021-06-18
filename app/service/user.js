@@ -18,10 +18,10 @@
 
  // Importing the database structure or model
  const userSchema = require('../models/user');
- 
+
  //Importing helper class
  const helper = require('../middleware/helper');
- 
+
  //ES-6 feature: class
  class ServiceMethods {
    /**
@@ -40,7 +40,7 @@
        callback(err || 'Some error occurred!', null);
      }
    };
- 
+
    /**
     * To authorize the user
     * @param {object} userCredentials data from client(email and password)
@@ -60,7 +60,6 @@
      });
    }
  }
- 
+
  //exporting class
  module.exports = new ServiceMethods();
- 

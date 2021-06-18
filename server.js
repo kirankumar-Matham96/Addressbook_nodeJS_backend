@@ -48,3 +48,9 @@ require('./app/routes/addressBook')(app)
 app.listen(process.env.PORT, () => {
   console.log(`Server running at port: ${process.env.PORT}`);
 })
+/**TODO:
+ * 1) register user bug solve
+ * 2) CRUD for other operations
+ * 3) logger, swagger
+ * 4) Test cases
+ * */

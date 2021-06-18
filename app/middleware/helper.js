@@ -18,26 +18,26 @@
 
  //importing .env file
  require('dotenv').config();
- 
+
  //importing bcrypt module
  const bcrypt = require('bcrypt');
- 
+
  //importing jsonwebtoken module
  const JWT = require('jsonwebtoken');
- 
+
  //ES-6 feature: class
  class bcryptHelper {
    /**
     * @description : Generates token
-    * @param {object} empData data from the client
+    * @param {object} userData data from the client
     * @returns token
     */
-   accessTokenGenerator(empData) {
-     return JWT.sign(empData, process.env.SECRET_ACCESS_TOKEN, {
+   accessTokenGenerator(userData) {
+     return JWT.sign(userData, process.env.SECRET_CODE, {
        expiresIn: '1000000s',
      });
    }
- 
+
    /**
     * @description: Method to compare given password and actual password
     *               stored in the database.
@@ -50,7 +50,7 @@
        ? bcrypt.compareSync(clientPassword, dbSavedPassword)
        : false;
    }
- 
+
    /**
     * To authenticate token
     * @param {*} req (express property)
@@ -60,7 +60,7 @@
     */
    checkJWToken(req, res, next) {
      const token = req.get('token');
- 
+
      if (token) {
        JWT.verify(token, process.env.SECRET_ACCESS_TOKEN, (err) => {
          if (err) {
@@ -81,7 +81,6 @@
      }
    }
  }
- 
+
  //exporting module
  module.exports = new bcryptHelper();
- 
