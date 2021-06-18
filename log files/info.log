@@ -6,3 +6,38 @@
 {"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T07:24:24.731Z"}
 {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"kiran1@gmail.com"},"level":"error","timestamp":"2021-06-18T07:24:28.314Z"}
 {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"kiran1@gmail.com"},"level":"error","timestamp":"2021-06-18T07:25:04.640Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T09:09:26.064Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:19:13.310Z"}
+{"message":"\"address\" must be of type object","level":"error","timestamp":"2021-06-18T11:25:44.923Z"}
+{"message":"\"address\" must be of type object","level":"error","timestamp":"2021-06-18T11:26:05.738Z"}
+{"message":"\"address\" must be of type object","level":"error","timestamp":"2021-06-18T11:26:24.533Z"}
+{"message":"\"address\" must be of type object","level":"error","timestamp":"2021-06-18T11:26:31.838Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:16.037Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:23.178Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:24.667Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:26.046Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:30.691Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:31.725Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:38.802Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:40.345Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:47.311Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:51.136Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:28:55.896Z"}
+{"message":"\"address\" must be of type object","level":"error","timestamp":"2021-06-18T11:29:10.475Z"}
+{"message":"\"address\" must be of type object","level":"error","timestamp":"2021-06-18T11:29:15.026Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:30:05.028Z"}
+{"message":"\"street\" is not allowed","level":"error","timestamp":"2021-06-18T11:30:08.240Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:30:39.026Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:30:47.551Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:30:48.421Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:30:49.943Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:31:24.696Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"varun@gmail.com"},"level":"error","timestamp":"2021-06-18T11:32:10.923Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:45:52.387Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:46:34.650Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:46:37.671Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:46:50.954Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:46:57.494Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:47:01.257Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T11:47:02.979Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"tarun@gmail.com"},"level":"error","timestamp":"2021-06-18T11:55:03.064Z"}

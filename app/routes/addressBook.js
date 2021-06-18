@@ -37,20 +37,20 @@ const helper = require('../middleware/helper')
    app.post('/userLogin', userController.loginUser);
 
    //To add contact
-   app.post('/addContact', helper.checkJWToken, addressBookController.addContact);
+   app.post('/addressBook/addContact', helper.checkJWToken, addressBookController.addContact);
 
    //To get all the contacts
    app.get('/addressBook', helper.checkJWToken, addressBookController.getAllContacts);
 
    //To get contact by id
-   app.get('/getContact/:contactId', helper.checkJWToken, addressBookController.getOneContact);
+   app.get('/addressBook/getContact/:contactId', helper.checkJWToken, addressBookController.getOneContact);
 
    //To update contact by id
-   app.put('/updateContact/:contactId', helper.checkJWToken, addressBookController.updateContact);
+   app.put('/addressBook/updateContact/:contactId', helper.checkJWToken, addressBookController.updateContact);
 
   //To update single or less information
-   app.patch('/patchContact/:contactId', helper.checkJWToken, addressBookController.patchContact);
+  //  app.patch('/patchContact/:contactId', helper.checkJWToken, addressBookController.patchContact);
 
    //To delete contact by id
-   app.delete('/deleteContact/:contactId', helper.checkJWToken, addressBookController.removeContact);
+   app.delete('/addressBook/deleteContact/:contactId', helper.checkJWToken, addressBookController.removeContact);
  };

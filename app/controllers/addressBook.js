@@ -36,7 +36,8 @@ const logger = require('../../config/logger');
        //validation
        const userInputValidation = validateInput.validate(req.body);
        if (userInputValidation.error) {
-         logger.error(userInputValidation.error.details[0].message)
+         logger.error(userInputValidation.error.details[0].message);
+         res.status(400).send({ success: false, message: error.message });
          return res.status(400).send({
            success: false,
            message: 'This email already registered!',
@@ -73,7 +74,6 @@ const logger = require('../../config/logger');
        res.status(500).send({
          success: false,
          message: 'This email is already registered!',
-        //  message: err.message || 'Some error occurred!🎈',
        });
      }
    };
@@ -202,41 +202,41 @@ const logger = require('../../config/logger');
     * @param {*} res (express property)
     * @returns HTTP status and object
     */
-   patchContact = (req, res) => {
-    try {
-      //validation
-      const userInputValidation = validateInput.validate(req.body);
-      if (userInputValidation.error) {
-        return res.status(400).send({
-          success: false,
-          message: userInputValidation.error.details[0].message,
-        });
-      }
+  //  patchContact = (req, res) => {
+  //   try {
+  //     //validation
+  //     const userInputValidation = validateInput.validate(req.body);
+  //     if (userInputValidation.error) {
+  //       return res.status(400).send({
+  //         success: false,
+  //         message: userInputValidation.error.details[0].message,
+  //       });
+  //     }
 
-      //id param for updating exact employee
-      const contactId = req.params;
+  //     //id param for updating exact employee
+  //     const contactId = req.params;
 
-      //calling method to update employee data
-      service.patching(contactId, req.body, (err, data) => {
-        return err
-          ? res.status(500).send({
-              success: false,
-              message:
-                err.message || 'some error occurred while updating the details',
-            })
-          : res.status(200).send({
-              success: true,
-              message: `Details updated for the contact successfully 🎉`,
-              data: data,
-            });
-      });
-    } catch (err) {
-      res.status(500).send({
-        success: false,
-        message: err.message || 'Some error occurred!🎎',
-      });
-    }
-  };
+  //     //calling method to update employee data
+  //     service.patching(contactId, req.body, (err, data) => {
+  //       return err
+  //         ? res.status(500).send({
+  //             success: false,
+  //             message:
+  //               err.message || 'some error occurred while updating the details',
+  //           })
+  //         : res.status(200).send({
+  //             success: true,
+  //             message: `Details updated for the contact successfully 🎉`,
+  //             data: data,
+  //           });
+  //     });
+  //   } catch (err) {
+  //     res.status(500).send({
+  //       success: false,
+  //       message: err.message || 'Some error occurred!🎎',
+  //     });
+  //   }
+  // };
 
    /**
     * function to call the remove function that deletes the required employee data,

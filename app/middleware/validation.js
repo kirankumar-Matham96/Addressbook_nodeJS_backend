@@ -40,7 +40,11 @@
        new RegExp('^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})')
      )
      .required(),
-   address: Joi.object(),
+   address: Joi.string(),
+   street: Joi.string(),
+   city: Joi.string(),
+   state: Joi.string(),
+   zip: Joi.number(),
    phoneNumber: Joi.string(),
  });
 

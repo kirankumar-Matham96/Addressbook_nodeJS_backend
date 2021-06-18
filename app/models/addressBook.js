@@ -26,51 +26,49 @@
  const SALT_ROUNDS = 10;
 
  //Address Book mongoose schema
- const addressBookSchema = mongoose.Schema(
-   {
-     name: {
-       type: String,
-       require: true,
-       validate: /^[A-Z]{1}[A-Za-z]{2,30}/,
-     },
-     email: {
-       type: String,
-       require: true,
-       validate: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
-       unique: true,
-     },
-     password: {
-       type: String,
-       require: true,
-       validate: /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/,
-     },
-     address: {
-       houseNo: {
-         type: String
-       },
-       street: {
-         type: String
-       },
-       city: {
-         type: String
-       },
-       state: {
-         type: String
-       },
-       zip: {
-         type: Number
-       }
-     },
-     phoneNumber: {
-       type: String,
-       require: true
-     },
-   },
-   {
-     timestamps: true,
-     versionKey:false
-   }
-)
+const addressBookSchema = mongoose.Schema(
+  {
+    name: {
+      type: String,
+      require: true,
+      validate: /^[A-Z]{1}[A-Za-z]{2,30}/,
+    },
+    email: {
+      type: String,
+      require: true,
+      validate: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+      unique: true,
+    },
+    password: {
+      type: String,
+      require: true,
+      validate: /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/,
+    },
+    address: {
+      type: String
+    },
+    street: {
+      type: String
+    },
+    city: {
+      type: String
+    },
+    state: {
+      type: String
+    },
+    zip: {
+      type: Number
+    },
+    phoneNumber: {
+      type: String,
+      require: true
+    },
+  },
+  {
+    timestamps: true,
+    versionKey: false
+  }
+);
 
 /**
  * function to make hashed password.
