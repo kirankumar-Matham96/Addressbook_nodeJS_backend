@@ -18,18 +18,39 @@
 
  //Importing controller modules
  const userController = require('../controllers/user');
- 
+const addressBookController = require('../controllers/addressBook');
+
+//Importing helper for validation and authentication
+const helper = require('../middleware/helper')
+
  /**
   * @description: Contains function with required routes
   *               that invoke callback functions when client requested.
   * @param {instance} app (an instance of express)
   */
  module.exports = (app) => {
-   
+
    //To register a new user
    app.post('/registerUser', userController.registerUser);
-   
+
    //To login
    app.post('/userLogin', userController.loginUser);
+
+   //To add contact
+   app.post('/addContact', helper.checkJWToken, addressBookController.addContact);
+
+   //To get all the contacts
+   app.get('/addressBook', helper.checkJWToken, addressBookController.getAllContacts);
+
+   //To get contact by id
+   app.get('/getContact/:contactId', helper.checkJWToken, addressBookController.getOneContact);
+
+   //To update contact by id
+   app.put('/updateContact/:contactId', helper.checkJWToken, addressBookController.updateContact);
+
+  //To update single or less information
+   app.patch('/patchContact/:contactId', helper.checkJWToken, addressBookController.patchContact);
+
+   //To delete contact by id
+   app.delete('/deleteContact/:contactId', helper.checkJWToken, addressBookController.removeContact);
  };
- 

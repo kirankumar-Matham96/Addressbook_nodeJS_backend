@@ -23,6 +23,7 @@ const express = require('express');
 require('dotenv').config();
 
 const dataBaseConnection = require('./config/addressBook');
+const logger = require('./config/logger');
 
 //Creating instance of express
 const app = express();
@@ -47,10 +48,11 @@ require('./app/routes/addressBook')(app)
 //Adding port listener
 app.listen(process.env.PORT, () => {
   console.log(`Server running at port: ${process.env.PORT}`);
+  logger.info(`Server running at port: ${process.env.PORT}`);
 })
 /**TODO:
- * 1) register user bug solve
- * 2) CRUD for other operations
- * 3) logger, swagger
- * 4) Test cases
+ * 1) CRUD for other operations (post, update, patch)
+ * 2) logger, swagger
+ * 3) Test cases
+ * 4) async - await
  * */

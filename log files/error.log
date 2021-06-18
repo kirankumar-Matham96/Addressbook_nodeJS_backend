@@ -1,0 +1,2 @@
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"kiran1@gmail.com"},"level":"error","timestamp":"2021-06-18T07:24:28.314Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"kiran1@gmail.com"},"level":"error","timestamp":"2021-06-18T07:25:04.640Z"}

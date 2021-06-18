@@ -1,0 +1,8 @@
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T07:22:22.979Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T07:24:01.811Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T07:24:16.644Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T07:24:20.459Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T07:24:21.633Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-18T07:24:24.731Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"kiran1@gmail.com"},"level":"error","timestamp":"2021-06-18T07:24:28.314Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"kiran1@gmail.com"},"level":"error","timestamp":"2021-06-18T07:25:04.640Z"}
