@@ -48,9 +48,6 @@ const helper = require('../middleware/helper')
    //To update contact by id
    app.put('/addressBook/updateContact/:contactId', helper.checkJWToken, addressBookController.updateContact);
 
-  //To update single or less information
-  //  app.patch('/patchContact/:contactId', helper.checkJWToken, addressBookController.patchContact);
-
    //To delete contact by id
    app.delete('/addressBook/deleteContact/:contactId', helper.checkJWToken, addressBookController.removeContact);
  };

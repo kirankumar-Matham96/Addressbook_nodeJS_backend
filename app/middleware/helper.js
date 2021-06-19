@@ -64,7 +64,6 @@
      if (token) {
        JWT.verify(token, process.env.SECRET_CODE, (err) => {
          if (err) {
-           console.log('Error: ', err);
            return res.status(400).send({
              success: false,
              message: err.message || 'Invalid token!',

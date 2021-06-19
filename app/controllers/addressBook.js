@@ -37,10 +37,9 @@ const logger = require('../../config/logger');
        const userInputValidation = validateInput.validate(req.body);
        if (userInputValidation.error) {
          logger.error(userInputValidation.error.details[0].message);
-         res.status(400).send({ success: false, message: error.message });
          return res.status(400).send({
            success: false,
-           message: 'This email already registered!',
+           message: userInputValidation.error.details[0].message,
          });
        }
 
@@ -125,8 +124,7 @@ const logger = require('../../config/logger');
          return err
            ? res.status(500).send({
                success: false,
-               message:
-                 err.message || 'some error occurred while getting the data',
+               message: err.message,
              })
            : res.status(200).send({
                success: true,
@@ -151,17 +149,17 @@ const logger = require('../../config/logger');
     */
    updateContact = (req, res) => {
      try {
+       //id param for updating exact employee
+       const contactId = req.params;
+
        //validation
        const userInputValidation = validateInput.validate(req.body);
        if (userInputValidation.error) {
          return res.status(400).send({
            success: false,
            message: userInputValidation.error.details[0].message,
-         });
-       }
-
-       //id param for updating exact employee
-       const contactId = req.params;
+          });
+        }
 
        //employee updated details from client
        const updatedDetails = {
@@ -175,11 +173,15 @@ const logger = require('../../config/logger');
 
        //calling method to update employee data
        service.update(contactId, updatedDetails, (err, data) => {
+        if (!data)
+        return res
+          .status(404)
+             .send({ success: false, message: 'Contact not found!🤷🏻‍♀️' });
+
          return err
            ? res.status(500).send({
                success: false,
-               message:
-                 err.message || 'some error occurred while updating the details',
+               message: err.message || 'some error occurred while updating the details',
              })
            : res.status(200).send({
                success: true,
@@ -192,51 +194,8 @@ const logger = require('../../config/logger');
          success: false,
          message: err.message || 'Some error occurred!🎎',
        });
-     }
+       }
    };
-
-   /**
-    * @description: function to call the update function that updates the required employee data,
-    *               from the service.js
-    * @param {*} req (express property)
-    * @param {*} res (express property)
-    * @returns HTTP status and object
-    */
-  //  patchContact = (req, res) => {
-  //   try {
-  //     //validation
-  //     const userInputValidation = validateInput.validate(req.body);
-  //     if (userInputValidation.error) {
-  //       return res.status(400).send({
-  //         success: false,
-  //         message: userInputValidation.error.details[0].message,
-  //       });
-  //     }
-
-  //     //id param for updating exact employee
-  //     const contactId = req.params;
-
-  //     //calling method to update employee data
-  //     service.patching(contactId, req.body, (err, data) => {
-  //       return err
-  //         ? res.status(500).send({
-  //             success: false,
-  //             message:
-  //               err.message || 'some error occurred while updating the details',
-  //           })
-  //         : res.status(200).send({
-  //             success: true,
-  //             message: `Details updated for the contact successfully 🎉`,
-  //             data: data,
-  //           });
-  //     });
-  //   } catch (err) {
-  //     res.status(500).send({
-  //       success: false,
-  //       message: err.message || 'Some error occurred!🎎',
-  //     });
-  //   }
-  // };
 
    /**
     * function to call the remove function that deletes the required employee data,
@@ -252,10 +211,15 @@ const logger = require('../../config/logger');
      try {
        //calling method to delete employee data
        service.remove(contactId, (err, data) => {
+        if (!data)
+        return res
+          .status(404)
+             .send({ success: false, message: 'Contact not found!🤷🏻‍♂️' });
+
          return err
            ? res
                .status(500)
-               .send({ success: false, message: 'Some error occurred🤷🏻‍♂️!' })
+               .send({ success: false, message: 'Some error occurred while deleting' })
            : res.status(200).send({
                success: true,
                message: 'Contact deleted successfully',

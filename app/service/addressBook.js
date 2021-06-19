@@ -52,12 +52,12 @@ class ServiceMethods {
         return err ? callback(err, null) : callback(null, data);
       });
     } catch (err) {
-      callback(err, null);
-    }
+      return callback(err, null);
+     };
   };
 
   /**
-   * get the employee with provided ID
+   * @description: get the employee with provided ID
    * @param {*} contactId path to the employee object
    * @param {*} callback callback function
    * @returns callback, status, object
@@ -85,8 +85,14 @@ class ServiceMethods {
    * @param {*} contactData data object
    * @param {*} callback function
    */
-  update = (contactId, contactData, callback) => {
+  update = (contactId, contactData, callback) => {//FIXME: bug in the process
     try {
+      if (!contactId.contactId) {
+        return res
+          .status(404)
+          .send({ message: `Contact with id: ${contactId.contactId} not found` });
+      }
+
       //calling method to update employee
       addressBookSchema.updateContactById(contactId, contactData, (err, data) => {
         return err ? callback(err, null) : callback(null, data);
@@ -96,21 +102,16 @@ class ServiceMethods {
     }
   };
 
-  patching = (contactId, newDataToUpdate, callback) => {
-    addressBookSchema.patchDataWithUpdate(contactId, newDataToUpdate, (err, data) => {
-      return err ? callback(err, null) : callback(null, data);
-     })
-  }
-
   /**
    * deletes the data with id
    * @param {*} contactId path to the object
    * @param {*} callback callback function
    * @returns
    */
-  remove = (contactId, callback) => {
+  remove = (contactId, callback) => {//FIXME: bug in the process
+    // if(contactId === )
     try {
-      if (!contactId) {
+      if (!contactId.contactId) {
         return res
           .status(404)
           .send({ message: `Contact with id: ${contactId.contactId} not found` });

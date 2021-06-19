@@ -31,7 +31,7 @@ const addressBookSchema = mongoose.Schema(
     name: {
       type: String,
       require: true,
-      validate: /^[A-Z]{1}[A-Za-z]{2,30}/,
+      validate: /^[A-Z]{1}[\\sA-Za-z]{2,30}/,
     },
     email: {
       type: String,
@@ -168,17 +168,6 @@ class CRUDOperations {
       callback(err, null);
     }
   };
-
-  patchDataWithUpdate = (contactId, newDataToUpdate, callback) => {
-    try {
-      schema.findByIdAndUpdate(contactId, newDataToUpdate, { new: true }, (err, data) => {
-        return err ? callback(err, null) : callback(null, data);
-      });
-    } catch (err) {
-      console.log('error at patching at schema level: err');
-      callback(err, null);
-    }
-  }
 
   //Removing employee with id
   removeContactById = (contactId, callback) => {

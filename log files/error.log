@@ -9,3 +9,332 @@
 {"message":"\"street\" is not allowed","level":"error","timestamp":"2021-06-18T11:30:08.240Z"}
 {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"varun@gmail.com"},"level":"error","timestamp":"2021-06-18T11:32:10.924Z"}
 {"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"tarun@gmail.com"},"level":"error","timestamp":"2021-06-18T11:55:03.064Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T10:52:58.124Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha@gmail.com"},"level":"error","timestamp":"2021-06-19T10:52:58.289Z"}
+{"message":"\"name\" is not allowed to be empty","level":"error","timestamp":"2021-06-19T10:52:58.372Z"}
+{"message":"\"name\" must be a string","level":"error","timestamp":"2021-06-19T10:52:58.461Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha@gmail.com"},"level":"error","timestamp":"2021-06-19T10:52:58.617Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha@gmail.com"},"level":"error","timestamp":"2021-06-19T10:52:58.772Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T10:52:58.854Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T10:52:58.945Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T10:52:59.036Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T10:52:59.121Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T10:52:59.208Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T10:56:13.713Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha@gmail.com"},"level":"error","timestamp":"2021-06-19T10:56:13.882Z"}
+{"message":"\"name\" is not allowed to be empty","level":"error","timestamp":"2021-06-19T10:56:13.966Z"}
+{"message":"\"name\" must be a string","level":"error","timestamp":"2021-06-19T10:56:14.055Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha@gmail.com"},"level":"error","timestamp":"2021-06-19T10:56:14.210Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha@gmail.com"},"level":"error","timestamp":"2021-06-19T10:56:14.370Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T10:56:14.454Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T10:56:14.537Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T10:56:14.622Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T10:56:14.710Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T10:56:14.795Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha5000@gmail.com"},"level":"error","timestamp":"2021-06-19T11:12:21.836Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:12:21.922Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha5000@gmail.com"},"level":"error","timestamp":"2021-06-19T11:13:03.825Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:13:03.908Z"}
+{"message":"\"name\" with value \"string String\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:18:46.845Z"}
+{"message":"\"name\" with value \"string String\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:20:05.978Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha5000@gmail.com"},"level":"error","timestamp":"2021-06-19T11:20:30.145Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:20:30.244Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:21:46.098Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha@gmail.com"},"level":"error","timestamp":"2021-06-19T11:21:46.256Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:24:08.809Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:24:44.016Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:24:44.093Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:26:28.198Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:26:28.279Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:26:43.380Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:26:43.458Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:26:43.534Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:27:07.564Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:27:07.641Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:27:07.721Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:27:07.799Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:27:25.784Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:27:25.865Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:27:25.943Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:27:26.021Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:27:26.100Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:27:40.301Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:27:40.379Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:27:40.460Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:27:40.536Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:27:40.611Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:27:40.687Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:27:54.385Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:27:54.463Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:27:54.539Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:27:54.617Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:27:54.695Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:27:54.779Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:27:54.859Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:29:41.227Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:29:41.305Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:29:41.383Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:29:41.462Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:29:41.539Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:29:41.615Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:29:41.691Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:29:55.248Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:29:55.326Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:29:55.405Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:29:55.483Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:29:55.559Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:29:55.635Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:29:55.713Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:30:51.635Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:30:51.714Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:30:51.792Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:30:51.869Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:30:51.948Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:30:52.029Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:30:52.111Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:34:44.429Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:34:44.507Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:34:44.584Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:34:44.661Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:34:44.737Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:34:44.814Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:34:44.889Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:35:55.065Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:35:55.153Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:35:55.244Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:35:55.331Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:35:55.411Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:35:55.493Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:35:55.572Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:36:28.150Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:36:28.229Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:36:28.306Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:36:28.385Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:36:28.464Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:36:28.540Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:36:28.617Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:38:45.537Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:38:45.614Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:38:45.693Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:38:45.772Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:38:45.850Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:38:45.928Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:38:46.006Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:42:55.929Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:42:56.006Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:42:56.084Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:42:56.162Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:42:56.241Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:42:56.318Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:42:56.395Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:46:16.833Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:46:16.912Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:46:16.990Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:46:17.067Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:46:17.143Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:46:17.220Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:46:17.297Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:47:00.724Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:47:00.802Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:47:00.879Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:47:00.958Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:47:01.037Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:47:01.114Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:47:01.189Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:47:27.262Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:47:27.342Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:47:27.422Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:47:27.505Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:47:27.585Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:47:27.662Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:47:27.737Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:48:17.906Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:48:17.983Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:48:18.060Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:48:18.140Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:48:18.217Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:48:18.296Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:48:18.373Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:53:23.981Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:53:24.060Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:53:24.143Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:53:24.225Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:53:24.306Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:53:24.383Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:53:24.459Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:55:25.042Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:55:25.119Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:55:25.195Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:55:25.273Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:55:25.351Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:55:25.428Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:55:25.504Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T11:59:19.882Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T11:59:19.960Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T11:59:20.040Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:59:20.117Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:59:20.195Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:59:20.274Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T11:59:20.351Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T12:00:26.020Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T12:00:26.098Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T12:00:26.177Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:00:26.255Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:00:26.334Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:00:26.412Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:00:26.490Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T12:01:50.392Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T12:01:50.469Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T12:01:50.545Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:01:50.623Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:01:50.702Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:01:50.778Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:01:50.855Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T12:02:29.489Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T12:02:29.567Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T12:02:29.646Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:02:29.723Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:02:29.800Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:02:29.875Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:02:29.950Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T12:05:14.176Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T12:05:14.254Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T12:05:14.331Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:05:14.409Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:05:14.485Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:05:14.562Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:05:14.644Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T12:07:42.046Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T12:07:42.126Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T12:07:42.205Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:07:42.287Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:07:42.364Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:07:42.441Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:07:42.518Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T12:11:47.649Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T12:11:47.727Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T12:11:47.805Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:11:47.882Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:11:47.960Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:11:48.038Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T12:11:48.115Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T13:45:00.387Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T13:45:00.467Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T13:45:00.545Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:45:00.625Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:45:00.706Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:45:00.782Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:45:00.860Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T13:46:06.440Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T13:46:06.519Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T13:46:06.595Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:46:06.673Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:46:06.751Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:46:06.826Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:46:06.903Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T13:51:20.395Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T13:51:20.476Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T13:51:20.560Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:51:20.643Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:51:20.726Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:51:20.807Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:51:20.887Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T13:53:54.196Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T13:53:54.273Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T13:53:54.354Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:53:54.436Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:53:54.515Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:53:54.598Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T13:53:54.675Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha@gmail.com"},"level":"error","timestamp":"2021-06-19T14:23:47.762Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:23:47.847Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:23:47.925Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:23:48.002Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:23:48.080Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:23:48.157Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:23:48.233Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:23:48.310Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:25:03.319Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:25:03.397Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:25:03.474Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:25:03.550Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:25:03.626Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:25:03.701Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:25:03.779Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha1234@gmail.com"},"level":"error","timestamp":"2021-06-19T14:27:10.264Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:27:10.348Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:27:10.424Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:27:10.502Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:27:10.581Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:27:10.660Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:27:10.736Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:27:10.813Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha1234@gmail.com"},"level":"error","timestamp":"2021-06-19T14:27:56.339Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:27:56.423Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:27:56.503Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:27:56.584Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:27:56.661Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:27:56.739Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:27:56.821Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:27:56.898Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"samatha1234@gmail.com"},"level":"error","timestamp":"2021-06-19T14:31:30.059Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:31:30.144Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:31:30.223Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:31:30.302Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:31:30.379Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:31:30.453Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:31:30.529Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:31:30.604Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:32:27.902Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:32:27.979Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:32:28.059Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:32:28.136Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:32:28.213Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:32:28.291Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:32:28.369Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"something@gmail.com"},"level":"error","timestamp":"2021-06-19T14:37:37.381Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:37:37.470Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:37:37.547Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:37:37.628Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:37:37.705Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:37:37.784Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:37:37.861Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:37:37.939Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"something@gmail.com"},"level":"error","timestamp":"2021-06-19T14:44:29.242Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:44:29.327Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:44:29.405Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:44:29.482Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:44:29.559Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:44:29.636Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:44:29.715Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:44:29.792Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"something@gmail.com"},"level":"error","timestamp":"2021-06-19T14:45:11.449Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:45:11.536Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:45:11.614Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:45:11.693Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:45:11.770Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:45:11.848Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:45:11.924Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:45:12.003Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"something@gmail.com"},"level":"error","timestamp":"2021-06-19T14:47:10.657Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:47:10.741Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:47:10.821Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:47:10.899Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:47:10.981Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:47:11.067Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:47:11.153Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:47:11.235Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:48:40.506Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:48:40.584Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:48:40.661Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:48:40.739Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:48:40.818Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:48:40.896Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:48:40.972Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-19T14:49:19.621Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-19T14:49:19.697Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-19T14:49:19.773Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:49:19.850Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:49:19.928Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:49:20.005Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:49:20.081Z"}

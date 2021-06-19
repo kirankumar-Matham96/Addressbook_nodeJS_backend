@@ -1,0 +1,205 @@
+{
+  "registerUserPass":{
+    "firstName":"Samatha",
+    "lastName":"Korkar",
+    "email":"samatha500@gmail.com",
+    "password":"Samatha123@"
+  },
+  "registerUserFirstNameFail1":{
+    "firstName":"samatha",
+    "lastName":"Korkar",
+    "email":"samatha@gmail.com",
+    "password":"Samatha123@"
+  },
+  "registerUserLastNameFail2":{
+    "firstName":"Samatha",
+    "lastName":"korkar",
+    "email":"samatha@gmail.com",
+    "password":"Samatha123@"
+  },
+  "registerUserEmailFail":{
+    "firstName":"Samatha",
+    "lastName":"Korkar",
+    "email":"samatha@@gmail.com",
+    "password":"Samatha123@"
+  },
+  "registerUserFirstNameFail5":{
+    "firstName":"Samatha",
+    "lastName":"Korkar",
+    "email":"samatha@gmail.com",
+    "password":"Samathaaaa@"
+  },
+  "registerUserFirstNameFail6":{
+    "firstName":"Samatha",
+    "lastName":"Korkar",
+    "email":"samatha@gmail.com",
+    "password":"Samatha1234"
+  },
+  "registerUserFirstNameFail7":{
+    "firstName":"Samatha",
+    "lastName":"Korkar",
+    "email":"samatha@gmail.com",
+    "password":"SAMATHA123@"
+  },
+  "userLoginPass": {
+    "email":"samatha@gmail.com",
+    "password":"Samatha123@"
+  },
+  "userLoginWrongEmailFail":{
+    "email":"samathaa@gmail.com",
+    "password":"Samatha123@"
+  },
+  "userLoginWrongPasswordFail":{
+    "email":"samatha@gmail.com",
+    "password":"Samatha123#"
+  },
+  "addContactPass":{
+    "name": "Samatha Korkar",
+    "email":"something@gmail.com",
+    "password":"Samatha123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "updateContactPass":{
+    "name": "Samatha Korkar",
+    "email":"samatha125@gmail.com",
+    "password":"Samatha123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidNameFormat1":{
+    "name": "samatha Korkar",
+    "email":"samatha@gmail.com",
+    "password":"Samatha123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidNameFormat2":{
+    "name": "Sa",
+    "email":"samatha201@gmail.com",
+    "password":"Samatha123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidNameFormat3":{
+    "name": "",
+    "email":"samatha@gmail.com",
+    "password":"Samatha123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidNameFormat4":{
+    "name": 12345,
+    "email":"samatha@gmail.com",
+    "password":"Samatha123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidNameFormat5":{
+    "name": "Samatha Korkar1",
+    "email":"samatha@gmail.com",
+    "password":"Samatha123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidNameFormat6":{
+    "name": "Samatha Korkar@",
+    "email":"samatha@gmail.com",
+    "password":"Samatha123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidEmailFormat":{
+    "name": "Samatha Korkar",
+    "email":"samatha@@gmail.com",
+    "password":"Samatha123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidPasswordFormat1":{
+    "name": "Samatha Korkar",
+    "email":"samatha@gmail.com",
+    "password":"samatha123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidPasswordFormat2":{
+    "name": "Samatha Korkar",
+    "email":"samatha@gmail.com",
+    "password":"Samatha1234",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidPasswordFormat3":{
+    "name": "Samatha Korkar",
+    "email":"samatha@gmail.com",
+    "password":"Samathaaaa@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "addContactInvalidPasswordFormat4":{
+    "name": "Samatha Korkar",
+    "email":"samatha@gmail.com",
+    "password":"SAMATHA123@",
+    "address": "Beside Bharath High School",
+    "street":"Pandaraya street",
+    "city":"Kottayam",
+    "state":"Kerala",
+    "zip":456123,
+    "phoneNumber":"91 5203164987"
+  },
+  "withIdPass":{
+    "id":"60cdff98386527204059fe37"
+  },
+  "withIdFail":{
+    "id":"60cc441e7df22825903efabc"
+  }
+}

@@ -4,7 +4,8 @@
   "description": "addressbook backend api",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",

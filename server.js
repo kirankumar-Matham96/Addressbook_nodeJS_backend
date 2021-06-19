@@ -30,10 +30,10 @@ const swaggerDocs = require('./swagger/swagger.json');
 //Creating instance of express
 const app = express();
 
-// parse request of content-type - application/x-www-form-urlencoded
+// Parse request of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({extended: true}));
 
-// parse request of content-type - application/json
+// Parse request of content-type - application/json
 app.use(express.json());
 
 //Adding swagger-ui-express
@@ -51,13 +51,9 @@ app.get('/', (req,res) => {
 require('./app/routes/addressBook')(app)
 
 //Adding port listener
-app.listen(process.env.PORT, () => {
+const server = app.listen(process.env.PORT, () => {
   console.log(`Server running at port: ${process.env.PORT}`);
   logger.info(`Server running at port: ${process.env.PORT}`);
 })
-/**TODO:
- * 1) CRUD for other operations (post, update, patch)
- * 2) logger, swagger
- * 3) Test cases
- * 4) async - await
- * */
+
+module.exports = server;
