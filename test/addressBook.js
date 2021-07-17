@@ -31,23 +31,23 @@ chai.use(chaiHTTP);
  *              Contains both positive and negative cases.
  */
 describe('POST - User Registration', () => {
-  before('givenData_whenValid_shouldRegisterTheUser', (done) => {
-    const userDetails = userInput.registerUserPass;
-    chai
-      .request(server)
-      .post('/registerUser')
-      .send(userDetails)
-      .end((err, res) => {
-        res.should.have.status(201);
-        res.body.should.be.a('object');
-        res.body.should.have.property('success').eql(true);
-        res.body.should.have
-          .property('message')
-          .eql('User registered successfully');
-        res.body.should.have.property('data').which.is.an('object');
-        err ? done(err) : done();
-      });
-  });
+  // after('givenData_whenValid_shouldRegisterTheUser', (done) => {
+  //   const userDetails = userInput.registerUserPass;
+  //   chai
+  //     .request(server)
+  //     .post('/registerUser')
+  //     .send(userDetails)
+  //     .end((err, res) => {
+  //       res.should.have.status(201);
+  //       res.body.should.be.a('object');
+  //       res.body.should.have.property('success').eql(true);
+  //       res.body.should.have
+  //         .property('message')
+  //         .eql('User registered successfully');
+  //       res.body.should.have.property('data').which.is.an('object');
+  //       err ? done(err) : done();
+  //     });
+  // });
 
   it('givenUserData_whenFirstNameIsInValid_shouldReturnError', (done) => {
     const userDetails = userInput.registerUserFirstNameFail1;
@@ -189,27 +189,27 @@ describe('Address Book API', () => {
    *               Contains positive and negative cases.
    */
   describe('POST - Add New Contact', () => {
-    it('givenUserDetails_whenValid_shouldAddNewContactToTheDatabase', (done) => {
-      const ContactDetails = userInput.addContactPass;
-      chai
-        .request(server)
-        .post('/addressBook/addContact')
-        .send(ContactDetails)
-        .set('token', token)
-        .end((err, res) => {
-          res.should.have.status(201);
-          res.body.should.be.a('object');
-          res.body.should.have.property('success').eql(true);
-          res.body.should.have
-            .property('message')
-            .eql('Contact added successfully');
-          res.body.should.have.property('data').should.be.a('object');
-          if (err) {
-            return done(err);
-          }
-          done();
-        });
-    });
+    // after('givenUserDetails_whenValid_shouldAddNewContactToTheDatabase', (done) => {
+    //   const ContactDetails = userInput.addContactPass;
+    //   chai
+    //     .request(server)
+    //     .post('/addressBook/addContact')
+    //     .send(ContactDetails)
+    //     .set('token', token)
+    //     .end((err, res) => {
+    //       res.should.have.status(201);
+    //       res.body.should.be.a('object');
+    //       res.body.should.have.property('success').eql(true);
+    //       res.body.should.have
+    //         .property('message')
+    //         .eql('Contact added successfully');
+    //       res.body.should.have.property('data').should.be.a('object');
+    //       if (err) {
+    //         return done(err);
+    //       }
+    //       done();
+    //     });
+    // });
 
     it('givenUserDetails_whenNameIsInWrongFormat_shouldReturnError', (done) => {
       const contactDetails = userInput.addContactInvalidNameFormat1;
@@ -569,24 +569,24 @@ describe('Address Book API', () => {
    *              Contains positive and negative cases.
    */
   describe('DELETE - Removes Contact', () => {
-    it('givenValidIDAndToken_shouldDeleteContactDataSuccessfully', (done) => {
-      chai
-        .request(server)
-        .delete(`/addressBook/deleteContact/${userInput.withIdPass.id}`)
-        .set('token', token)
-        .end((err, res) => {
-          res.should.have.status(200);
-          res.body.should.be.a('object');
-          res.body.should.have.property('success').eql(true);
-          res.body.should.have
-            .property('message')
-            .eql('Contact deleted successfully');
-          if (err) {
-            return done(err);
-          }
-          done();
-        });
-    });
+    // it('givenValidIDAndToken_shouldDeleteContactDataSuccessfully', (done) => {
+    //   chai
+    //     .request(server)
+    //     .delete(`/addressBook/deleteContact/${userInput.withIdPass.id}`)
+    //     .set('token', token)
+    //     .end((err, res) => {
+    //       res.should.have.status(200);
+    //       res.body.should.be.a('object');
+    //       res.body.should.have.property('success').eql(true);
+    //       res.body.should.have
+    //         .property('message')
+    //         .eql('Contact deleted successfully');
+    //       if (err) {
+    //         return done(err);
+    //       }
+    //       done();
+    //     });
+    // });
 
     it('givenData_whenIdIsInValid_shouldReturnErrorMessage', (done) => {
       chai
