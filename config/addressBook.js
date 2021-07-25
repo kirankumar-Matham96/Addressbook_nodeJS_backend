@@ -37,7 +37,9 @@
        .once('open', () => {
          console.log('Successfully connected to the database!');
        })
-       .on('error', (err) => {
+       .on('error', (err) =>
+       {
+         console.log(`err: ${err}`);
          process.exit(); //exit from the process
        });
    };

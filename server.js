@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** *******************************************************************
  * Execution    : 1. Default node with npm   cmd> npm server.js
  *                2. If nodemon installed    cmd> npm start

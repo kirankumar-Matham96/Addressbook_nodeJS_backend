@@ -16,11 +16,12 @@
  'use strict';
 
  //importing property/function for joi
+ // eslint-disable-next-line no-unused-vars
  const { string } = require('@hapi/joi');
- 
+
  //importing joi module
  const Joi = require('@hapi/joi');
- 
+
  //joi validating object
  const validateInput = Joi.object({
    firstName: Joi.string()
@@ -46,7 +47,6 @@
      )
      .required(),
  });
- 
+
  //exporting module
  module.exports = { validateInput };
- 

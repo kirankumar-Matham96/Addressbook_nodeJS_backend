@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 /*********************************************************************
  * Execution    : 1. Default node with npm   cmd> npm employeePayroll.js
  *                2. If nodemon installed    cmd> npm test
@@ -225,6 +227,7 @@ describe('Address Book API', () => {
           res.body.should.have
             .property('message')
             .eql(
+              // eslint-disable-next-line no-useless-escape
               `\"name\" with value \"${contactDetails.name}\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/`
             );
           if (err) {
@@ -269,7 +272,7 @@ describe('Address Book API', () => {
           res.body.should.have
             .property('message')
             .eql(
-              `"email" with value "${contactDetails.email}" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&\'*+/=?^_\`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/`
+              `"email" with value "${contactDetails.email}" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_\`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/`
             );
           if (err) {
             return done(err);
@@ -533,6 +536,7 @@ describe('Address Book API', () => {
           res.body.should.have
             .property('message')
             .eql(
+              // eslint-disable-next-line no-useless-escape
               `"email" with value "${userInput.addContactInvalidEmailFormat.email}" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&\'*+/=?^_\`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/`
             );
           if (error) {

@@ -16,6 +16,7 @@
  'use strict';
 
  //importing property/function for joi
+ // eslint-disable-next-line no-unused-vars
  const { string } = require('@hapi/joi');
 
  //importing joi module
