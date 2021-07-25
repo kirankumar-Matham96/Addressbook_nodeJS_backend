@@ -77,7 +77,7 @@
     * @param {*} req (express property)
     * @param {*} res (express property)
     */
-   loginUser(req, res) {
+   loginUser = (req, res) => {
      const userCredentials = {
        email: req.body.email,
        password: req.body.password,

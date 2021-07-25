@@ -17,6 +17,9 @@
 // Importing express
 const express = require('express');
 
+// Importing cors
+const CORS = require('cors');
+
 // Importing and configuring dotenv
 require('dotenv').config();
 
@@ -33,6 +36,9 @@ app.use(express.urlencoded({ extended: true }));
 
 // Parse request of content-type - application/json
 app.use(express.json());
+
+// using cors to connect multi platform servers
+app.use(CORS);
 
 // Adding swagger-ui-express
 app.use('/address-book-api', swaggerUI.serve, swaggerUI.setup(swaggerDocs));
