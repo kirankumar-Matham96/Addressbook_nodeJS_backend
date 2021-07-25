@@ -47,15 +47,23 @@
     * @param {function} callback callback function
     */
    userLogin(userCredentials, callback) {
-     const token = helper.accessTokenGenerator(userCredentials);
      userSchema.loginUser(userCredentials, (err, data) => {
-       if (err) {
+
+       /**
+        * return err
+        * ? callback(err, null)
+        * : (!helper.passwordCheckWithBCrypt(userCredentials.password, data.password))
+        * ? return callback('Wrong password!❌', null)
+        * : return (const token = helper.accessTokenGenerator(userCredentials), callback(null, token));
+        */
+      if (err) {
          return callback(err, null);
-       } else if (
-         !helper.passwordCheckWithBCrypt(userCredentials.password, data.password)
-       ) {
-         return callback('Wrong password!❌', null);
-       }
+        } else if (
+          !helper.passwordCheckWithBCrypt(userCredentials.password, data.password)
+          ) {
+            return callback('Wrong password!❌', null);
+          }
+          const token = helper.accessTokenGenerator(userCredentials);
        return callback(null, token);
      });
    }

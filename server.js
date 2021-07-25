@@ -1,4 +1,4 @@
-/*********************************************************************
+/** *******************************************************************
  * Execution    : 1. Default node with npm   cmd> npm server.js
  *                2. If nodemon installed    cmd> npm start
  *
@@ -12,48 +12,52 @@
  * @author      : Kirankumar Matham <mathamkirankumar96@gmail.com>
  * @version     : _ _ _
  * @since       : 17-06-2021
- *********************************************************************/
+ ******************************************************************** */
 
-'use strict'
-
-//Importing express
+// Importing express
 const express = require('express');
 
-//Importing and configuring dotenv
+// Importing cors
+const CORS = require('cors');
+
+// Importing and configuring dotenv
 require('dotenv').config();
 
+const swaggerUI = require('swagger-ui-express');
 const dataBaseConnection = require('./config/addressBook');
 const logger = require('./config/logger');
-const swaggerUI = require('swagger-ui-express');
 const swaggerDocs = require('./swagger/swagger.json');
 
-//Creating instance of express
+// Creating instance of express
 const app = express();
 
 // Parse request of content-type - application/x-www-form-urlencoded
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 
 // Parse request of content-type - application/json
 app.use(express.json());
 
-//Adding swagger-ui-express
+// using cors to connect multi platform servers
+app.use(CORS);
+
+// Adding swagger-ui-express
 app.use('/address-book-api', swaggerUI.serve, swaggerUI.setup(swaggerDocs));
 
-//connecting to database
+// connecting to database
 dataBaseConnection.connectToDatabase();
 
-//welcome message for home page
-app.get('/', (req,res) => {
-  res.status(200).send({success: true, message: 'Welcome to Address Book API 🙏🏻'})
-})
+// welcome message for home page
+app.get('/', (req, res) => {
+  res.status(200).send({ success: true, message: 'Welcome to Address Book API 🙏🏻' });
+});
 
-//Calling routes
-require('./app/routes/addressBook')(app)
+// Calling routes
+require('./app/routes/addressBook')(app);
 
-//Adding port listener
+// Adding port listener
 const server = app.listen(process.env.PORT, () => {
   console.log(`Server running at port: ${process.env.PORT}`);
   logger.info(`Server running at port: ${process.env.PORT}`);
-})
+});
 
 module.exports = server;

@@ -113,6 +113,10 @@ class CRUDOperations {
         email: newContact.email,
         password: newContact.password,
         address: newContact.address,
+        street: newContact.street,
+        city: newContact.city,
+        state: newContact.state,
+        zip: newContact.zip,
         phoneNumber: newContact.phoneNumber,
       });
 

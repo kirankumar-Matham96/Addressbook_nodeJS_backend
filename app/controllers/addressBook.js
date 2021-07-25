@@ -49,6 +49,10 @@ const logger = require('../../config/logger');
          email: req.body.email,
          password: req.body.password,
          address: req.body.address,
+         street: req.body.street,
+         city: req.body.city,
+         state: req.body.state,
+         zip: req.body.zip,
          phoneNumber: req.body.phoneNumber,
        };
 
@@ -72,7 +76,7 @@ const logger = require('../../config/logger');
      } catch (err) {
        res.status(500).send({
          success: false,
-         message: 'This email is already registered!',
+         message: err.message || 'This email is already registered!',
        });
      }
    };

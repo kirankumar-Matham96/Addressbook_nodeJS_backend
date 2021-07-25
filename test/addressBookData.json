@@ -2,7 +2,7 @@
   "registerUserPass":{
     "firstName":"Samatha",
     "lastName":"Korkar",
-    "email":"samatha500@gmail.com",
+    "email":"s1amatha007@gmail.com",
     "password":"Samatha123@"
   },
   "registerUserFirstNameFail1":{
@@ -55,7 +55,7 @@
   },
   "addContactPass":{
     "name": "Samatha Korkar",
-    "email":"something@gmail.com",
+    "email":"s1amatha007@gmail.com",
     "password":"Samatha123@",
     "address": "Beside Bharath High School",
     "street":"Pandaraya street",
@@ -197,7 +197,7 @@
     "phoneNumber":"91 5203164987"
   },
   "withIdPass":{
-    "id":"60cdff98386527204059fe37"
+    "id":"60cdcd4d5defe121ccd17ebc"
   },
   "withIdFail":{
     "id":"60cc441e7df22825903efabc"

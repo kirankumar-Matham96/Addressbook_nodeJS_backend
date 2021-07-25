@@ -663,3 +663,63 @@
 {"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:49:19.927Z"}
 {"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:49:20.005Z"}
 {"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-19T14:49:20.081Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-21T04:22:51.419Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"something@gmail.com"},"level":"error","timestamp":"2021-06-21T04:22:51.990Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-21T04:22:52.074Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-21T04:22:52.151Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-21T04:22:52.229Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T04:22:52.308Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T04:22:52.387Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T04:22:52.464Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T04:22:52.542Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-21T05:00:00.701Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-21T06:08:36.588Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-21T11:25:20.740Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-21T11:25:21.503Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-21T11:25:21.588Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-21T11:25:21.675Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T11:25:21.761Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T11:25:21.847Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T11:25:21.934Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T11:25:22.018Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-21T11:58:06.041Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-21T11:58:06.519Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-21T11:58:06.600Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-21T11:58:06.676Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T11:58:06.755Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T11:58:06.832Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T11:58:06.911Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T11:58:06.990Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-21T11:59:15.831Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-21T12:03:24.218Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-21T12:03:25.553Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-21T12:04:00.487Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-21T12:04:09.471Z"}
+{"message":"\"name\" with value \"samatha Korkar\" fails to match the required pattern: /^[A-Z]{1}[\\sA-Za-z]{2,30}/","level":"error","timestamp":"2021-06-21T12:04:09.948Z"}
+{"message":"\"name\" length must be at least 3 characters long","level":"error","timestamp":"2021-06-21T12:04:10.030Z"}
+{"message":"\"email\" with value \"samatha@@gmail.com\" fails to match the required pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/","level":"error","timestamp":"2021-06-21T12:04:10.110Z"}
+{"message":"\"password\" with value \"samatha123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T12:04:10.187Z"}
+{"message":"\"password\" with value \"Samathaaaa@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T12:04:10.265Z"}
+{"message":"\"password\" with value \"SAMATHA123@\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T12:04:10.346Z"}
+{"message":"\"password\" with value \"Samatha1234\" fails to match the required pattern: /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/","level":"error","timestamp":"2021-06-21T12:04:10.426Z"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"keyPattern":{"email":1},"keyValue":{"email":"s1amatha007@gmail.com"},"level":"error","timestamp":"2021-06-21T12:04:10.505Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-27T06:00:50.091Z"}
+{"message":"Server running at port: 8080","level":"info","timestamp":"2021-06-27T16:51:03.250Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T16:51:52.784Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:12:05.361Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:41:51.579Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:55:57.654Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:55:59.502Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:56:00.481Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:56:09.647Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:56:12.379Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:56:13.428Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:56:14.951Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:56:30.494Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:56:44.045Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:57:17.249Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-27T17:57:18.666Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-28T10:10:08.793Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-06-28T14:23:21.527Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-07-15T10:52:58.137Z"}
+{"message":"Server running at port: 3000","level":"info","timestamp":"2021-07-15T10:52:59.262Z"}

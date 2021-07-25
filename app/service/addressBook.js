@@ -85,7 +85,7 @@ class ServiceMethods {
    * @param {*} contactData data object
    * @param {*} callback function
    */
-  update = (contactId, contactData, callback) => {//FIXME: bug in the process
+  update = (contactId, contactData, callback) => {
     try {
       if (!contactId.contactId) {
         return res
@@ -108,8 +108,7 @@ class ServiceMethods {
    * @param {*} callback callback function
    * @returns
    */
-  remove = (contactId, callback) => {//FIXME: bug in the process
-    // if(contactId === )
+  remove = (contactId, callback) => {
     try {
       if (!contactId.contactId) {
         return res

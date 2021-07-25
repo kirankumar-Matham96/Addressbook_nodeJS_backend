@@ -18,10 +18,10 @@
 
  //Importing .env library and configuring
  require('dotenv').config();
- 
+
  //Importing mongoose library
  const mongoose = require('mongoose');
- 
+
  //ES-6feature: class
  class ConnectToDatabase{
    //to connect to the database
@@ -31,7 +31,7 @@
        useUnifiedTopology: true,
        useFindAndModify: false,
      });
- 
+
      //to show some message when the connection made successfully
      mongoose.connection
        .once('open', () => {
@@ -42,7 +42,6 @@
        });
    };
  }
- 
+
  //Exporting instance of the class
  module.exports = new ConnectToDatabase();
- 
