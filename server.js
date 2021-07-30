@@ -19,7 +19,7 @@
 const express = require('express');
 
 // Importing cors
-const CORS = require('cors');
+var CORS = require('cors');
 
 // Importing and configuring dotenv
 require('dotenv').config();
@@ -39,10 +39,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // using cors to connect multi platform servers
-app.use(CORS);
+app.use(CORS());
+
+// var options = {
+//   explorer: true,
+// };
 
 // Adding swagger-ui-express
+// app.use('/address-book-api', swaggerUI.serve, swaggerUI.setup(swaggerDocs));
 app.use('/address-book-api', swaggerUI.serve, swaggerUI.setup(swaggerDocs));
+// app.use('/address-book-api', swaggerUI.serve, swaggerUI.setup(swaggerDocs,options));
 
 // connecting to database
 dataBaseConnection.connectToDatabase();
